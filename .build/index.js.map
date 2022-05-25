@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function disp_details(id:number,name:string,mail_id?:string) { \n   console.log(\"ID:\", id); \n   console.log(\"Name:\",name); \n   if(mail_id!=undefined)  \n   console.log(\"Email Id\",mail_id);\n   console.log(\"\")\n\n}\ndisp_details(123,\"John\");\ndisp_details(111,\"mary\",\"mary@xyz.com\");\n"],
+  "mappings": "AAAA,sBAAsB,IAAU,MAAY,SAAiB;AAC1D,UAAQ,IAAI,OAAO;AACnB,UAAQ,IAAI,SAAQ;AACpB,MAAG,WAAS;AACZ,YAAQ,IAAI,YAAW;AACvB,UAAQ,IAAI;AAAA;AAGf,aAAa,KAAI;AACjB,aAAa,KAAI,QAAO;",
+  "names": []
+}
